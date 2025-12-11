@@ -1,0 +1,11 @@
+# Este arquivo define as regras de formatação
+
+root = true  
+
+[*]  
+indent_style = space  
+indent_size = 2 
+
+
+
+
