@@ -194,3 +194,16 @@ source ~/.zshrc
 8. npm install
 9. npm run dev
 10. abrir http://localhost:3000
+
+
+## PostgreSQL
+
+Neste projeto o PostgreSQL roda dentro de um container Docker.
+
+Para acessar o banco:
+
+docker exec -it clone-tabnews-database-1 psql -U postgres -d clone_tabnews
+
+Para sair:
+
+\q
